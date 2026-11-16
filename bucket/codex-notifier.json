@@ -1,0 +1,46 @@
+{
+    "version": "0.1.0",
+    "description": "Notifier for Codex in the terminal: phone notifications and approvals for OpenAI Codex",
+    "homepage": "https://notifierforcodex.com/cli",
+    "license": {
+        "identifier": "PolyForm-Shield-1.0.0",
+        "url": "https://github.com/touch-tap/codex-notifier/blob/main/LICENSE.md"
+    },
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.0/codex-notifier-x86_64-pc-windows-msvc.zip",
+            "hash": "4d581e57b9a5468b6a54694b4b729bc976affb453c79700772139cdfbc2956a2"
+        },
+        "arm64": {
+            "url": "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.0/codex-notifier-aarch64-pc-windows-msvc.zip",
+            "hash": "a1b612eec8921616585bf94d2db7d33c949f14f9e8add716d02cf298486abff0"
+        }
+    },
+    "bin": "codex-notifier.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/touch-tap/codex-notifier/releases/download/v$version/codex-notifier-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/touch-tap/codex-notifier/releases/download/v$version/codex-notifier-aarch64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS"
+                }
+            }
+        }
+    },
+    "notes": [
+        "Connect your phone: run",
+        "  codex-notifier",
+        "and scan the QR code with the phone's camera, or run",
+        "  codex-notifier pair <the code on your phone>"
+    ]
+}
