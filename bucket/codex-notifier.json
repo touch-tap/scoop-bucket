@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Notifier for Codex in the terminal: phone notifications and approvals for OpenAI Codex",
     "homepage": "https://notifierforcodex.com/cli",
     "license": {
@@ -11,12 +11,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.0/codex-notifier-x86_64-pc-windows-msvc.zip",
-            "hash": "4d581e57b9a5468b6a54694b4b729bc976affb453c79700772139cdfbc2956a2"
+            "url": "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.1/codex-notifier-x86_64-pc-windows-msvc.zip",
+            "hash": "30ea37a6f54b53249c59ce5d48b157679974d7e25c96ab06b8c85fb0d3c79ab7"
         },
         "arm64": {
-            "url": "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.0/codex-notifier-aarch64-pc-windows-msvc.zip",
-            "hash": "a1b612eec8921616585bf94d2db7d33c949f14f9e8add716d02cf298486abff0"
+            "url": "https://github.com/touch-tap/codex-notifier/releases/download/v0.1.1/codex-notifier-aarch64-pc-windows-msvc.zip",
+            "hash": "c9b6e1855978d933ac92ac667ac06bb8a66feecea890976ca85bdec20f969d4c"
         }
     },
     "bin": "codex-notifier.exe",
