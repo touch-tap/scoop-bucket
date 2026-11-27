@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Antigravity Notifier in the terminal: phone notifications and approvals for Google Antigravity",
     "homepage": "https://antigravitynotifier.com/cli",
     "license": {
@@ -11,12 +11,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.0/antigravity-notifier-x86_64-pc-windows-msvc.zip",
-            "hash": "8bd0bac3477b57685dc4d213250adfa2c8ca471b739cb37b71a93ce10e15afa3"
+            "url": "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.1/antigravity-notifier-x86_64-pc-windows-msvc.zip",
+            "hash": "ec2d403ce0150b5c0ac6acb3ca356294366dc595ff6cf8924d7c77b4ae772295"
         },
         "arm64": {
-            "url": "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.0/antigravity-notifier-aarch64-pc-windows-msvc.zip",
-            "hash": "6fae23139bd1ee2e77d32200fc0bdb5b01eae8b7a01fba10a764e3b0c363e762"
+            "url": "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.1/antigravity-notifier-aarch64-pc-windows-msvc.zip",
+            "hash": "228d6110326988e114a4e99ae10cc73cedcf034962da325eab812a7ce7217027"
         }
     },
     "bin": "antigravity-notifier.exe",
