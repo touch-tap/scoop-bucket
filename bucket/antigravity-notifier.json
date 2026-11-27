@@ -1,0 +1,46 @@
+{
+    "version": "0.1.0",
+    "description": "Antigravity Notifier in the terminal: phone notifications and approvals for Google Antigravity",
+    "homepage": "https://antigravitynotifier.com/cli",
+    "license": {
+        "identifier": "PolyForm-Shield-1.0.0",
+        "url": "https://github.com/touch-tap/antigravity-notifier/blob/main/LICENSE.md"
+    },
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.0/antigravity-notifier-x86_64-pc-windows-msvc.zip",
+            "hash": "8bd0bac3477b57685dc4d213250adfa2c8ca471b739cb37b71a93ce10e15afa3"
+        },
+        "arm64": {
+            "url": "https://github.com/touch-tap/antigravity-notifier/releases/download/v0.1.0/antigravity-notifier-aarch64-pc-windows-msvc.zip",
+            "hash": "6fae23139bd1ee2e77d32200fc0bdb5b01eae8b7a01fba10a764e3b0c363e762"
+        }
+    },
+    "bin": "antigravity-notifier.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/touch-tap/antigravity-notifier/releases/download/v$version/antigravity-notifier-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/touch-tap/antigravity-notifier/releases/download/v$version/antigravity-notifier-aarch64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS"
+                }
+            }
+        }
+    },
+    "notes": [
+        "Connect your phone: run",
+        "  antigravity-notifier",
+        "and scan the QR code with the phone's camera, or run",
+        "  antigravity-notifier pair <the code on your phone>"
+    ]
+}
